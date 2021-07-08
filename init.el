@@ -15,7 +15,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (clang-format magit impatient-mode typescript-mode ggtags ztree))))
+    (global-tags clang-format magit impatient-mode typescript-mode ggtags ztree))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -75,6 +75,7 @@
 (load "frame-fns.el")
 (load "frame-cmds.el")
 (load "zoom-frm.el")
+(load "flex.el")
 
 ;; key bindings
 (global-set-key (kbd "<C-up>") 'shrink-window)
@@ -105,6 +106,7 @@
 (setq package-archives
                 '(("melpa" . "http://melpa.org/packages/")
                   ("melpa-stable" . "http://stable.melpa.org/packages/")
-                  ("org-elpa" . "https://orgmode.org/elpa/")))
+                  ("org-elpa" . "https://orgmode.org/elpa/")
+                  ("elpa" . "http://elpa.gnu.org/packages/")))
 
 (delete-selection-mode 1)
