@@ -15,7 +15,7 @@
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (global-tags clang-format magit impatient-mode typescript-mode ggtags ztree))))
+    (bison-mode global-tags clang-format magit impatient-mode typescript-mode ggtags ztree))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
