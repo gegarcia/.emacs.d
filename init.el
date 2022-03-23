@@ -66,7 +66,8 @@ fcfa
 ;;                 (setq show-trailing-whitespace t)
 ;;                 (c-set-style "linux-tabs-only")))))
  
-
+sadnasjndcas
+ncfasn
 (define-key global-map "\M-*" 'pop-tag-mark)
 
 (autoload 'gtags-mode "gtags" "" t)
@@ -123,3 +124,6 @@ fcfa
 
 (delete-selection-mode 1)
 (which-function-mode 1)
+
+
+asdasda
