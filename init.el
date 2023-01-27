@@ -131,3 +131,4 @@
 
 (delete-selection-mode 1)
 (which-function-mode 1)
+(show-paren-mode 1)
