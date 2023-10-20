@@ -11,11 +11,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (tango-dark)))
+ '(custom-enabled-themes '(tango-dark))
  '(inhibit-startup-screen t)
  '(package-selected-packages
-   (quote
-    (bison-mode global-tags clang-format magit impatient-mode typescript-mode ggtags ztree))))
+   '(bison-mode global-tags clang-format magit impatient-mode typescript-mode ggtags ztree))
+ '(standard-indent 2)
+ '(tab-always-indent nil))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -132,3 +133,10 @@
 (delete-selection-mode 1)
 (which-function-mode 1)
 (show-paren-mode 1)
+
+(defun insert-date ()
+  "Insert date at point." (interactive)
+  (insert (format-time-string "Week %U - %d/%m/%y")))
+
+(setq scroll-step            1
+      scroll-conservatively  10000)
