@@ -1,2 +1,4 @@
 ((magit-blame
-  ("-w")))
+  ("-w"))
+ (magit-branch nil)
+ (magit-rebase nil))

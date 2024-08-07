@@ -14,7 +14,7 @@
  '(custom-enabled-themes '(tango-dark))
  '(inhibit-startup-screen t)
  '(package-selected-packages
-   '(bison-mode global-tags clang-format magit impatient-mode typescript-mode ggtags ztree))
+   '(apparmor-mode debian-el dpkg-dev-el bison-mode global-tags clang-format magit impatient-mode typescript-mode ggtags ztree))
  '(standard-indent 2)
  '(tab-always-indent nil))
 
@@ -140,3 +140,5 @@
 
 (setq scroll-step            1
       scroll-conservatively  10000)
+
+(require 'apparmor-mode)
